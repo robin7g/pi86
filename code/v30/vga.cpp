@@ -1,5 +1,6 @@
 #include "vga.h"
 
+
 void Print_Char_18x16(SDL_Renderer *Renderer, int x, int y, unsigned char Ascii_value)
 {
 	for (int i = 0; i < 9; i++)
@@ -92,7 +93,6 @@ void print_pixs_mode4_palette_0(SDL_Renderer *Renderer, int x, int y, unsigned c
 		{ 
 			SDL_SetRenderDrawColor(Renderer, 255, 255, 0, SDL_ALPHA_OPAQUE);
 		}
-		i;
 		SDL_RenderDrawPoint(Renderer, x + 8 - (i + i), y);
 		SDL_RenderDrawPoint(Renderer, x + 7 - (i + i), y);
 		SDL_RenderDrawPoint(Renderer, x + 8 - (i + i), y + 1);
@@ -146,7 +146,6 @@ void print_pixs_mode4_palette_1(SDL_Renderer *Renderer, int x, int y, unsigned c
 		{ 
 			SDL_SetRenderDrawColor(Renderer, 255, 255, 255, SDL_ALPHA_OPAQUE);
 		}
-		i;
 		SDL_RenderDrawPoint(Renderer, x + 8 - (i + i), y);
 		SDL_RenderDrawPoint(Renderer, x + 7 - (i + i), y);
 		SDL_RenderDrawPoint(Renderer, x + 8 - (i + i), y + 1);

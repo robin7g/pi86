@@ -1,5 +1,11 @@
 #include "x86.h"
 
+// Singleton global definition of Stop_Flag
+// used to indicate program exit condition
+// in the main loop. 
+bool Stop_Flag;
+
+
 unsigned char RAM[0x100000];
 unsigned char IO[0x10000];
 bool IRQ0_Flag = 0;
@@ -257,7 +263,6 @@ void Setup()
 //System Bus decoder
 void Start_System_Bus(int Processor)
 {
-	char Control_Bus;
 	int Address;
 	char Memory_IO_Bank;
 

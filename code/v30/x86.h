@@ -45,8 +45,8 @@
 
 using namespace std;
 
-static bool Stop_Flag;
-
+// Stop_Flag defined in x86.cpp
+extern bool Stop_Flag;
 
 void Reset();	
 void Start(int Processor);
