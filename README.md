@@ -32,6 +32,18 @@ cd src
 make
 ```
 
+### Run
+For the **V30 CPU** 8086 run 
+```
+sudo pi86
+```
+For the **V20 CPU** 8088 run
+```
+sudo pi88
+```
+
+
+
 *** This is experimental use at your own risk. 
 
 This current build runs very stable. I have left it running for seveal hours and came back and it was still running just fine. I encourage you to download the source code to the projects and give them a try and make modification. 
