@@ -33,6 +33,7 @@ make
 ```
 
 ### Run
+The program has to be run as root in order for it to access the gpios.
 For the **V30 CPU** 8086 run 
 ```
 sudo ./pi86
