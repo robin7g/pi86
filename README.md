@@ -22,8 +22,7 @@ I have written a c library that helps with interfacing the 8088 PCB.  I have als
 ### Prerequisites 
 To compile you need gcc some build tools, SDL2 and nasm
 ```
-sudo apt-get install gcc build-essential libsdl2-dev
-sudo apt-get install nasm
+sudo apt-get install gcc build-essential libsdl2-dev nasm
 ```
 
 ### Build
