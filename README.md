@@ -11,7 +11,7 @@ https://www.homebrew8088.com/home/raspberry-pi-second-project
 
 The code is fairly simple and easy to modify. Basically the Raspberry PI toggles the Clock then reads the Control Bus and then provides the 8088 what it is requesting. It will read the ALE pin and save the address then provide the proper Memory or IO Read/Write.  
 
-### Disadvantages:  
+**Disadvantages:**
 
 The speed, the processor is only running at about 0.3 MHz the best I could calculate.  But on the flip side the drive read writes are very fast because the memory is virtual on raspberry pi.
 
@@ -19,14 +19,14 @@ Not all 8088/8086 Processors will work. The power is connected to the 3.3v pin o
 
 I have written a c library that helps with interfacing the 8088 PCB.  I have also begun to develop a GUI window that emulates CGA/VGA graphics. I tested this with a fresh install of Raspberry PI os and it ran just fine.
 
-## Pre-requisites 
+### Prerequisites 
 To compile you need build tools, SDL2 and nasm
 ```
 sudo apt-get install gcc build-essential libsdl2-dev
 sudo apt-get install nasm
 ```
 
-## Build
+### Build
 ```
 cd src
 make
