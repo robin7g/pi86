@@ -20,7 +20,7 @@ Not all 8088/8086 Processors will work. The power is connected to the 3.3v pin o
 I have written a c library that helps with interfacing the 8088 PCB.  I have also begun to develop a GUI window that emulates CGA/VGA graphics. I tested this with a fresh install of Raspberry PI os and it ran just fine.
 
 ### Prerequisites 
-To compile you need build tools, SDL2 and nasm
+To compile you need gcc some build tools, SDL2 and nasm
 ```
 sudo apt-get install gcc build-essential libsdl2-dev
 sudo apt-get install nasm
@@ -35,11 +35,11 @@ make
 ### Run
 For the **V30 CPU** 8086 run 
 ```
-sudo pi86
+sudo ./pi86
 ```
 For the **V20 CPU** 8088 run
 ```
-sudo pi88
+sudo ./pi88
 ```
 
 
