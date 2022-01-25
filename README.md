@@ -5,9 +5,6 @@ https://github.com/homebrew8088/pi86
 
 [![PI86 In action](https://img.youtube.com/vi/drXkA7xGNrc/0.jpg)](https://www.youtube.com/watch?v=drXkA7xGNrc)
 
-![alt text](/images/20211112_105224.jpg)
-
-
 
 This is the code for my 8088/8086 (Really V20/V30) Raspberry Pi "hat"
 
