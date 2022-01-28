@@ -25,6 +25,12 @@ To compile you need gcc some build tools, SDL2 and nasm
 ```
 sudo apt-get install gcc build-essential libsdl2-dev nasm
 ```
+If you don't have WiringPi installed here is how to get it. This will work on Ubuntu or Raspbian
+```
+git clone https://github.com/WiringPi/WiringPi
+cd WiringPi
+./build
+```
 
 ### Build
 ```
