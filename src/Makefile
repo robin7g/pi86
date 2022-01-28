@@ -18,7 +18,7 @@ CFLAGS = -Wall -g -D_REENTRANT
 CC = g++
 ASM = nasm
 INCLUDES = -I/usr/include/SDL2
-LIBS = -lwiringPi -lSDL2
+LIBS = -lwiringPi -lSDL2 -lpthread
 
 all: pi86 pi88 bios.bin
 
